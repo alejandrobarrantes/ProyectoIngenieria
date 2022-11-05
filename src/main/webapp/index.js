@@ -35,7 +35,7 @@ function isEmpty(val){
             usuario = await response.json();
             if (!response.ok) {
                  console.log("error de respuesta");
-                //document.location="presentation/espera.html";
+                //document.location="presentation/index.html";
                 //return;
             }
             else{
