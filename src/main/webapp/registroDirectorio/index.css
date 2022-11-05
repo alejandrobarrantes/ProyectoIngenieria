@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+
+.images{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+
+body{
+}
+
+
+/* CSS Document */
+header {
+	background-color: #fff;
+	border-bottom: 4px solid #2aafeb;
+	height: 71px;
+	margin-bottom: 132px;
+	position: fixed;
+	top: 0;
+	transition:all 0.3s ease;
+	width: 100%;
+	z-index: 100000
+}
+header.fixed { height: 54px }
+header:before {
+	background-image: url(curls.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 1109px;
+	content: "";
+	height: 70px;
+	left: 50%;
+	position: absolute;
+	top: 71px;
+	transform: translateX(-50%);
+	transition:all 0.3s ease;
+	width: 1106px
+}
+header.fixed:before { background-size: 1000px; top: 54px }
+#logo {
+	background-color: #fff;
+	background-image: url(logo.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 121px;
+	border-radius: 50%;
+	box-shadow: 0px 36px 90px -40px rgba(0,0,0,0.42);
+	height: 121px;
+	left: 50%;
+	position: absolute;
+	top: 5px;
+	transform: translateX(-50%);
+	transition:all 0.2s ease;
+	width: 121px;
+}
+#logo:after {
+	border: 1px dashed #ff5505;
+	border-radius: 50%;
+	content: "";
+	height: 90%;
+	left: 50%;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition:all 0.3s ease;
+	width: 90%;
+}
+#logo:focus:after, #logo:hover:after {
+	opacity: 1;
+}
+#logo:focus { outline: none }
+header.fixed #logo {
+	background-size: 100px;
+	height: 107px;
+	top: -4px;
+	width: 107px
+}
+#logo p {
+	color: #303030;
+	font-family: 'Philosopher', sans-serif;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 140px;
+	transform: translateX(-50%);
+	transition:all 0.3s ease;
+	white-space: nowrap;
+}
+#logo.fixed p { display: none }
+#logo p span { display: block }
+#logo p span:nth-child(1) {
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 18px;
+}
+#logo p span:nth-child(2) {
+	font-size: 26px;
+	font-weight: 700;
+}
+@media only screen and (max-width:990px) {
+	body { padding-top: 49px }
+	header, header.fixed { height: 48px }
+	header.fixed ul li { line-height: 44px }
+	header:before, header.fixed:before { background-position: center top; background-size: 650px; top: 48px }
+	header #logo, header.fixed #logo { background-size: 80px; box-shadow: 0px 36px 80px -26px rgba(0,0,0,0.42); height: 83px; top: -4px; width: 83px }
+	#logo:focus:after { display: none }
+	header ul li { line-height: 44px }
+	header ul.first li:after,
+	header ul.second li:nth-child(1),
+	header ul li.weather { display: none }
+	header ul li a, header ul li p { font-size: 12px; padding: 0 14px }
+	header ul.first { padding-left: 16px }
+	header ul li.weather span { font-size: 14px; padding-left: 37px }
+	header ul li a .orange { margin-right: 5px }
+	#logo p span { display: none }
+}
+@media only screen and (max-width:530px) {
+	header ul.first li.statement a span { display: none }
+}
+@media only screen and (max-width:480px) {
+	header ul li a .orange { font-size: 15px }
+}
+
+.img-curls2{
+    background-image: url("curls.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	bottom: 0;
+    height: 68px;
+    left: 50%;
+	position:fixed;
+    transform: translateX(-50%) scale(-1, -1);
+    width: 100%;
+	border: none;
+	margin-top: 200px;
+	clear: inherit;
+}
+
+.container{
+	margin: auto;
+	margin-top: 160px;
+	color: black;
+	width: 80%;
+	height: 370px;
+}
+
+.box{
+	width: 90%;
+	height: 10%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.box-div{
+	display: inline-flex;
+	width: 96%;
+	height: 30px;
+	
+}
+.box-div-i{
+	display: inline-flex;
+	margin: auto;
+}
+
+.options{
+	float: left;
+	width: 30%;
+	margin-top: 30px;
+	margin-left: 10px;
+	display: flex;
+}
+
+.user{
+	float: right;
+	margin: auto;
+	text-align: center;
+	width: 30%;
+	display:inline-flex;
+	margin-top: 20px;
+}
+
+.fa{
+	font-size: 2.0em !important;
+	margin-left: 45%;
+}
+
+.fa:hover{
+	color: black;
+}
+
+.in-icons{
+	margin-top: 20px;
+	margin: auto;
+	color:#106D78;
+}
+.i-user{
+	float: right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	color:#242222;
+	font-size: 1.5em !important;
+}
+.d-input{
+	border-radius:3px;
+	color:black;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 17px;
+	font-weight: 300;
+	border:none;
+	resize:none;
+	width: 40%;
+	height: 100%;
+	background-color:aliceblue;
+}
+
+.d-input:hover{
+	color: black;
+	border: groove;
+}
+
+.last-div{
+	text-align: center;
+}
+
+.send-button{
+	background-color: gray;
+	color: white;
+	font-weight:700;
+	margin: auto;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	border: none;
+}
+
+.send-button:hover{
+	background-color:#E7661F;
+}
+
+
+.button-62 {
+  /*background: linear-gradient(to bottom right, #EF4765, #FF9A5A);*/
+  background-color:#F16551;
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+	width: 10%;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+
+.button-63 {
+  background-color:#7A9FD0;
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+	width: 10%;
+}
+.button-63:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+.button-63:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin: auto;
+  width: 30%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+	height:2%; 
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.alert {
+  opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+}

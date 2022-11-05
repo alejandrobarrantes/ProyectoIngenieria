@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registro</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="https://kit.fontawesome.com/d7e017c383.js" crossorigin="anonymous"></script>
+	<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="index.js"> </script>
+</head>
+
+<body style="position: relative; min-height: 100%; top: 0px;">
+
+        <header>
+            <div class="generalWrap noPad">
+                <a id="logo" href="https://www.munisarchi.go.cr/">
+                </a>
+            </div>
+			<div class="options">
+				<a href="#" style="margin-left: 40%;"><i class="fa-solid fa-circle-left  fa-xl fa" style="color: gray"></i></a>
+				<a href="#" style="margin-left: 20%;"><i class="fa-solid fa-house  fa-xl fa" style="color: gray"></i></a>
+			</div>
+			
+			<div class="user">
+				<center id="username" class="i-user"></center>
+                                <a href="../index.html">
+                                   <!--<i class="fa-solid fa-user in-icons fa-xl i-user" style="color: gray"></i>-->
+                                </a>
+			</div>
+			
+        </header>
+	
+	<div class="container">
+		<form>
+		<div class="box">
+			<div class="box-div-i">
+				<i class="fa-sharp fa-solid fa-shop in-icons fa-xl" style="margin-right: -4px"></i>
+			</div>
+			<div class="box-div">
+				<input id="nombre" class="d-input ob" placeholder="Digite el nombre de la empresa">
+				<i class="fa-solid fa-location-dot in-icons fa-xl" style="margin-right: 7px"></i>
+				<input id="coordenadas" class="d-input ob" placeholder="Digite las coordenadas">
+			</div>
+		</div>
+		<div class="box">
+			<div class="box-div-i">
+				<i class="fa-solid fa-envelope in-icons fa-xl"></i>
+			</div>
+			<div class="box-div">
+				<input id="correo" class="d-input ob" placeholder="Digite el correo electronico">
+				
+				<i class="fa-solid fa-magnifying-glass in-icons fa-xl" style="margin-right: 7px"></i>
+				<input id="sitioWeb" class="d-input" placeholder="Digite el sitio web de la empresa">
+			</div>
+			
+		</div>
+		<div class="box">
+			<div class="box-div-i">
+				<i class="fa-solid fa-map-pin in-icons fa-xl" style="margin-right: 10px"></i>
+			</div>
+			<div class="box-div">
+				<input id="direccion" class="d-input ob" placeholder="Digite la direccion">
+				<i class="fa-sharp fa-solid fa-scroll in-icons fa-xl" style="margin-right: 7px"></i>
+				<textarea id="descripcion" type="text" class="d-input ob" placeholder="Digite la descripcion de la empresa" style="margin-left: 0%;height: 100px;"></textarea>
+			</div>
+		</div>
+		<div class="box">
+			<div class="box-div-i">
+				<i class="fa-solid fa-phone in-icons fa-xl"></i>
+			</div>
+			<div class="box-div">
+				<input id="telefono1" type="number"  class="d-input ob" placeholder="Telefono 1">
+			</div>
+		</div>
+		<div class="box">
+			<div class="box-div-i">
+				<i class="fa-solid fa-phone in-icons fa-xl"></i>
+			</div>
+			<div class="box-div">
+				<input id="telefono2" type="number" class="d-input ob" placeholder="Telefono 2">
+			</div>
+		</div>
+		
+		
+		<div class="box">
+			<div class="box-div-i">
+				<i class="fa-brands fa-facebook in-icons fa-xl"></i>
+			</div>
+			<div class="box-div">
+				<input id="urlFacebook" type="url" class="d-input" placeholder="Digite la url del facebook">
+				
+				<i class="fa-brands fa-instagram in-icons fa-xl" style="margin-right: 3px"></i>
+				<input id="urlInstagram" class="d-input" placeholder="Digite la url del instagram">
+			</div>
+		</div>
+		<div class="box">
+			<div class="box-div-i">
+				<i class="fa-brands fa-twitter in-icons fa-xl"></i>			
+			</div>
+			<div class="box-div">
+				<input id="urlTwitter" class="d-input" placeholder="Digite la url del twitter">
+				
+				<i class="fa-brands fa-whatsapp in-icons fa-xl" style="margin-right: 3px"></i>
+				<input id="urlWhatsapp" class="d-input" placeholder="Digite la url del whatsapp">
+			</div>
+		</div>
+		</form>
+	</div>
+	<div id="alert" class="alert" style="display: none;">
+  		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  			Complete todos los espacios
+	</div>
+	<div class="last-div">
+		<button id="cancelar" class="button-62" role="button">Cancelar</button>
+		<button id="enviar" class="button-63" role="button">Enviar</button>
+	</div>
+	
+
+
+</body>
+</html>

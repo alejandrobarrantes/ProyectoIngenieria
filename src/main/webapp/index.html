@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="shortcut icon" href="#">
+<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="index.js"></script>
+	
+<title>Login</title>
+</head>
+
+<body>
+<div class="images" style= "font-family: 'Philosopher';">
+	
+	<img class="img-logo" src="logo.png"> <img class="img-curls" src="curls.png">
+  <p> 
+	  <span style="font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 18px;">Municipalidad</span><br>
+    <span style="font-size: 26px;
+    font-weight: 700;">de Sarchi</span> </p>
+</div>
+<main class="login-design">
+  <div class="waves"> <img src="images/unnamed.png" alt="" width="478" height="522"  /> </div>
+  <div class="login">
+    <div class="login-data"> <img src="images/unnamed.png" alt="" width="100" height="100" />
+      <h1>Bienvenido a la Municipalidad de <br>
+        Sarchí</h1>
+      <br>
+      <form action="#" class="login-form">
+        <div class="input-group">
+          <label class="input-fill">
+            <input type="text" name="email" id="email" required/>
+            <span class="input-label">Usuario</span> <i class="fas fa-envelope"></i> </label>
+        </div>
+        <div class="input-group">
+          <label class="input-fill">
+            <input type="password" name="password" id="password" required />
+            <span class="input-label">Contraseña</span> <i class="fas fa-lock"></i> </label>
+        </div>
+        <input type="button" value="¿Necesitas una Cuenta?" class="btn-login" id="registroButton" onclick="location.href = '../../../../../../Documents/NetBeansProjects/ProyectoInge/src/main/webapp/presentation/espera.html'"/>
+        <input type="button" value="Iniciar Sesión" class="btn-login" id="loginButton" />
+      </form>
+    </div>
+  </div>
+</main>
+</body>
+</html>

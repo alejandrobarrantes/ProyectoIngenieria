@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>Home - Municipalidad de Sarchi</title>
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=b76fe09d071549dfe45d1a0709095da4">
+<link rel="stylesheet" href="assets/css/styles.min.css?h=e11fd02803a892e4971efce165e3cbf9">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar gradient" style="opacity: 1;filter: blur(0px);background: var(--bs-white);color: rgb(0,0,0);">
+  <div class="container-fluid"><a class="navbar-brand logo" href="https://www.munisarchi.go.cr/" style="color: rgb(0,0,0);font-weight: bold;">Municipalidad de Sarchi</a>
+    <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="background: var(--bs-white);">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html" style="color: rgb(0,0,0);text-decoration: underline;">Log Out</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page lanidng-page" style="margin-top: -5px;">
+  <section class="d-inline portfolio-block block-intro" style="margin-top: -73px;">
+    <div class="container" style="margin: auto;">
+      <div style="background: url(assets/img/curls.png) center / contain no-repeat;height: 59px;margin: auto;"></div>
+      <div class="about-me">
+        <div class="avatar" style="background: url(assets/img/logo.png) no-repeat;background-size: contain;height: 174px;width: 174px;"></div>
+        <p style="font-weight: bold;text-align: center;font-size: 28px;margin: 29px;margin-top: -25px;margin-bottom: -1px;">Validación de Patentados</p>
+      </div>
+    </div>
+    <section><!-- Start: Data Table -->
+      <table id="example" class="table table-striped table-bordered" cellspacing="0" width="80%" >
+        <thead>
+          <tr>
+            <th>Numero patentado</th>
+            <th>Informacion Ingresada</th>
+            <th>Razon de rechazo</th>
+            <th>Estado</th>
+            <th>Responsable modificacion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>312121</td>
+            <td>Prueba Bruce,Javascript Developer</td>
+            <td>No tenia informacion</td>
+            <td><select name="estado" class="cars">
+                <option value="Aceptado">Aceptado</option>
+                <option value="Rechazado">Rechazado</option>
+              </select></td>
+            <td>208260483</td>
+          </tr>
+          <tr>
+            <td>212121</td>
+            <td>Ramon Garcia,Customer Support</td>
+            <td></td>
+            <td><select name="estado" class="cars">
+                <option value="Aceptado">Aceptado</option>
+                <option value="Rechazado">Rechazado</option>
+                <!-- Agregar en el js que si el estado es aceptado se deshabilita el espacio de razon de rechazo -->
+              </select></td>
+            <td>13376782</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- End: Data Table --><!-- Start: AXY Modal Demo Button -->
+      <div><!-- Start: Modal Button --><a class="btn btn-primary btn-lg" role="button" href="#myModal" data-bs-toggle="modal" style="transform: translateX(726px) translateY(29px);font-size: 17px;">Aplicar cambios</a><!-- End: Modal Button -->
+        <div class="modal fade" role="dialog" tabindex="-1" id="myModal" style="transform: translateY(249px);">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4>Modal Title</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p class="text-center text-muted">Desea aplicar los cambios realizados?</p>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button>
+                <button class="btn btn-primary" type="button">Aplicar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: AXY Modal Demo Button --></section>
+  </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script><script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script><script src="assets/js/script.min.js?h=93ba179fa52dd72fece483aba133cf5f"></script>
+</body>
+</html>
