@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.example.springdemo.data.Dao;
+package com.java.data.Dao;
 
-import com.example.springdemo.data.Database;
-import com.example.springdemo.logic.Verificacion;
+import com.java.data.Database;
+import com.java.logic.Verificacion;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

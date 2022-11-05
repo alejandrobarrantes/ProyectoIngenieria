@@ -1,8 +1,9 @@
-package com.example.springdemo.data.Dao;
+package com.java.data.Dao;
 
-import com.example.springdemo.logic.Patente;
-import com.example.springdemo.logic.Registrodeclaracion;
-import com.example.springdemo.data.Database;
+import com.java.logic.Patente;
+import com.java.logic.Registrodeclaracion;
+import com.java.data.Database;
+
 import java.sql.PreparedStatement;
 
 import java.sql.ResultSet;

@@ -1,7 +1,7 @@
-package com.example.springdemo.pruebasjinge;
+package com.java.pruebasjinge;
 
-import com.example.springdemo.data.Dao.VerificacionDao;
-import com.example.springdemo.logic.Verificacion;
+import com.java.data.Dao.VerificacionDao;
+import com.java.logic.Verificacion;
 
 
 /**

@@ -1,5 +1,5 @@
 
-package com.example.springdemo.logic;
+package com.java.logic;
 
 import java.util.Objects;
 

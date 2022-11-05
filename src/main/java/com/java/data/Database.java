@@ -7,18 +7,13 @@
 #-Andres Rojas Rojas
 #-Andres Cordero Gutierrez
  */
-package com.example.springdemo.data;
+package com.java.data;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.net.URL;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Properties;
 
 public class Database {
      private static Database theInstance;

@@ -1,9 +1,9 @@
 
-package com.example.springdemo.data.Dao;
+package com.java.data.Dao;
 
-import com.example.springdemo.data.Database;
-import com.example.springdemo.logic.Administrador;
-import com.example.springdemo.logic.Usuario;
+import com.java.data.Database;
+import com.java.logic.Administrador;
+import com.java.logic.Usuario;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

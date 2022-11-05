@@ -1,6 +1,6 @@
-package com.example.springdemo.rest;
-import com.example.springdemo.data.Dao.PatenteInformacionDao;
-import com.example.springdemo.logic.PatenteInformacion;
+package com.java.rest;
+import com.java.data.Dao.PatenteInformacionDao;
+import com.java.logic.PatenteInformacion;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
