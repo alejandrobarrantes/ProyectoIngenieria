@@ -1,5 +1,5 @@
 
-package com.java.logic;
+package logic;
 
 /**
  *

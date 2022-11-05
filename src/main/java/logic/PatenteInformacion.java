@@ -1,4 +1,4 @@
-package com.java.logic;
+package logic;
 
 import java.util.Objects;
 

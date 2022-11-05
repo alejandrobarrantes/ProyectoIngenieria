@@ -1,7 +1,7 @@
-package com.java.pruebasjinge;
+package pruebasjinge;
 
-import com.java.data.Dao.VerificacionDao;
-import com.java.logic.Verificacion;
+import data.Dao.VerificacionDao;
+import logic.Verificacion;
 
 
 /**

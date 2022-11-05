@@ -1,11 +1,11 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.app to edit this template
  */
-package com.java.data.Dao;
+package data.Dao;
 
-import com.java.data.Database;
-import com.java.logic.Usuario;
+import data.Database;
+import logic.Usuario;
 
 import java.util.ArrayList;
 import java.util.List;

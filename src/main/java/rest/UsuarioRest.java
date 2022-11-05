@@ -1,7 +1,7 @@
-package com.java.rest;
+package rest;
 
-import com.java.data.Dao.UsuarioDao;
-import com.java.logic.Usuario;
+import data.Dao.UsuarioDao;
+import logic.Usuario;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;

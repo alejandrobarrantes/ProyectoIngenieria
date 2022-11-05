@@ -7,7 +7,7 @@
 #-Andres Rojas Rojas
 #-Andres Cordero Gutierrez
  */
-package com.java.data;
+package data;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

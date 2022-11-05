@@ -1,9 +1,9 @@
 
-package com.java.data.Dao;
+package data.Dao;
 
-import com.java.data.Database;
-import com.java.logic.Administrador;
-import com.java.logic.Usuario;
+import data.Database;
+import logic.Administrador;
+import logic.Usuario;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -1,11 +1,11 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.app to edit this template
  */
-package com.java.rest;
+package rest;
 
-import com.java.data.Dao.VerificacionDao;
-import com.java.logic.Verificacion;
+import data.Dao.VerificacionDao;
+import logic.Verificacion;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

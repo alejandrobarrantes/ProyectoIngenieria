@@ -1,8 +1,8 @@
-package com.java.data.Dao;
+package data.Dao;
 
-import com.java.logic.Patente;
-import com.java.logic.PatenteInformacion;
-import com.java.data.Database;
+import logic.Patente;
+import logic.PatenteInformacion;
+import data.Database;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
