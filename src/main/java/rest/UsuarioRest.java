@@ -16,6 +16,7 @@ public class UsuarioRest {
     @CrossOrigin(origins = {"http://localhost:8080","http://localhost:63342"})
     @PostMapping("/login")
     public Usuario login(@RequestBody Usuario usuario) throws Exception {
+        System.out.println("entraLogin");
             Usuario logged=new Usuario(); 
             UsuarioDao usuarioDao=new UsuarioDao();
             try {
